@@ -1,0 +1,39 @@
+.cardDiv{
+    width: 20rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    background-color: 
+    #9B9B9B;
+    margin: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardDivText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardBtn{
+    margin-top: 1rem;
+    border-radius: 15px;
+    width: 8rem;
+    height: 2rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10px;
+    color: #fff;
+    border: 1px solid grey;
+    /* background: linear-gradient(85deg, #ebb8b8 0 5%, #ef0b0ba8 70% 100%); */
+    /* linear-gradient(85deg, #b2e5b5 0 5%, #37ed40a8 70% 100%); */
+}
+.cardBtn:first-child{
+    margin-bottom: 0.2rem;
+}
+
+.headerSectionText{
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+}
+
