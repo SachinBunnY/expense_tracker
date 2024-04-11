@@ -30,7 +30,7 @@ function Item({item}:itemsProps){
                 <button className='actionBtn' style={{backgroundColor:"#ef910ba8"}}><MdOutlineEdit /></button>
             </div>
         </div>
-        <hr style={{color:"red", width:"90%", marginLeft:"1rem"}}></hr>
+        <hr style={{color:"red", width:"94%", marginLeft:"1rem"}}></hr>
     </>)
 }
 

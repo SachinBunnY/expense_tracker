@@ -29,6 +29,8 @@ function App() {
   
   return (
     <div className="mainContainer">
+      <div className='headerContainer'>
+        <h4>Expense Tracker</h4>
         <header className="headerSection">
           <div className='balanceDiv'>
             <Card spanText={"Wallet Balance"} walletPrice={walletPrice} expenses={expenses}/>
@@ -38,16 +40,24 @@ function App() {
             <Chart />
           </div>
         </header>
-        <footer className='footerSection'>
+      </div>
+      <footer className='footerSection'>
+        <div className='transactionContainer'>
+          <h4>Recent Transactions</h4>
           <div className='recentTransactionDiv'>
-            {items.length>0 && items.map((item:any)=>{
-              return(<Item item={item}/>)
-            })}
-          </div>
+          {items.length>0 && items.map((item:any)=>{
+            return(<Item item={item}/>)
+          })}
+        </div>
+        </div>
+        <div className='expensesContainer'>
+          <h4>Top Expenses</h4>
           <div className='topExpensesDiv'>
 
           </div>
-        </footer>
+        </div>
+        
+      </footer>
     </div>
   );
 }
